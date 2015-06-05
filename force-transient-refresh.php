@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Force Transient Refresh
- * Plugin URI: https://zachwills.net/force-transients-refresh-wordpress-plugin
+ * Plugin URI: http://zachwills.net/force-transients-refresh-wordpress-plugin
  * Description: Force Transient Refresh is allows developers to easily force all of their transients to refresh through adding a query string to any URL.
  * Version: 0.1
  * Author: Zach Wills
@@ -22,7 +22,7 @@ function ftr_refresh_transients() {
 	global $wpdb;
 	$sql = "SELECT `option_name` AS `name`, `option_value` AS `value`
 	        FROM  $wpdb->options
-	        WHERE `option_name` LIKE '%transient_%'
+	        WHERE `option_name` LIKE '%transient_timeout_%'
 	        ORDER BY `option_name`";
 
 	$results    = $wpdb->get_results( $sql );
