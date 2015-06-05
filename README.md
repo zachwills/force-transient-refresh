@@ -28,15 +28,10 @@ Should be used when you are developing locally and don't want to load up your da
 
 ## Frequently Asked Questions
 
-Easy questions- easy answers.
-
-### Can I use this in production?
-
-You can, but don't.
-
-### 'ftr' is way too short and I hate it. Is there a longer parameter that will trigger the refresh?
-
-Yes- you can also trigger the refresh by adding `?force_transient_refresh` to the URL.
+* Can I use this in production?
+    * You can, but don't.
+* 'ftr' is way too short and I hate it. Is there a longer parameter that will trigger the refresh?
+    * Yes- you can also trigger the refresh by adding `?force_transient_refresh` to the URL.
 
 ## Changelog
 
