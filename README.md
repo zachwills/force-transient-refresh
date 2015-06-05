@@ -7,11 +7,11 @@
 * License: GPLv2 or later
 * License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Clear all transients by adding a query string parameter to whatever URL you are trying to load. Not for use in production.
+Clear all transients by adding a query string parameter (`?ftr`) to whatever URL you are trying to load. Not for use in production.
 
 ## Description
 
-Clear all transients by adding a query string parameter to whatever URL you are trying to load. Not for use in production.
+Clear all transients by adding a query string parameter (`?ftr`) to whatever URL you are trying to load. Not for use in production.
 
 Should be used when you are developing locally and don't want to load up your database to clear out transients.
 
@@ -21,8 +21,10 @@ Should be used when you are developing locally and don't want to load up your da
 
 1. Upload `force-transient-refresh` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Navigate to a page that loads transients and add `?ftr` to the URL
-4. Experience the joys of fresh transients.
+
+## Getting Started
+1. Navigate to a page that loads transients and add `?ftr` to the URL
+2. Experience the joys of fresh transients.
 
 ## Frequently Asked Questions
 
