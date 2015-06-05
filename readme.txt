@@ -39,4 +39,4 @@ Yes- you can also trigger the refresh by adding `?force_transient_refresh` to th
 == Changelog ==
 
 = 0.1 =
-* Plugin Launch
+* Plugin Released

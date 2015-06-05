@@ -36,4 +36,4 @@ Should be used when you are developing locally and don't want to load up your da
 ## Changelog
 
 ### 0.1
-* Plugin Launch
+* Plugin Released
