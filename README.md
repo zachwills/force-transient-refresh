@@ -1,21 +1,21 @@
-=== Plugin Name ===
-Contributors: oxymoron
-Tags: transients, refresh, development, force
-Requires at least: 3.0.1
-Tested up to: 4.2.2
-Stable tag: 0.1
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+# Force Transient Refresh
+* Contributors: oxymoron
+* Tags: transients, refresh, development, force
+* Requires at least: 3.0.1
+* Tested up to: 4.2.2
+* Stable tag: 0.1
+* License: GPLv2 or later
+* License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Clear all transients by adding a query string parameter to whatever URL you are trying to load. Not for use in production.
 
-== Description ==
+## Description
 
 Clear all transients by adding a query string parameter to whatever URL you are trying to load. Not for use in production.
 
 Should be used when you are developing locally and don't want to load up your database to clear out transients.
 
-[GitHub Repo](https://github.com/zachwills/wp-force-transient-refresh)
+[Blog Post](https://github.com/zachwills/wp-force-transient-refresh)
 
 == Installation ==
 
@@ -24,17 +24,17 @@ Should be used when you are developing locally and don't want to load up your da
 3. Navigate to a page that loads transients and add `?ftr` to the URL
 4. Experience the joys of fresh transients.
 
-== Frequently Asked Questions ==
+## Frequently Asked Questions
 
-= Can I use this in production? =
+### Can I use this in production?
 
 You can, but don't.
 
-= `ftr` is way too short and I hate it. Is there a longer parameter that will trigger the refresh? =
+### `ftr` is way too short and I hate it. Is there a longer parameter that will trigger the refresh?
 
 Yes- you can also trigger the refresh by adding `?force_transient_refresh` to the URL.
 
-== Changelog ==
+## Changelog
 
-= 0.1 =
+### 0.1
 * Plugin Launch
