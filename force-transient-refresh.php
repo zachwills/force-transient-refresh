@@ -2,9 +2,9 @@
 /**
  * Plugin Name: Force Transient Refresh
  * Plugin URI: https://zachwills.net/force-transients-refresh-wordpress-plugin
- * Description: Clear all transients by adding a query string parameter to whatever URL you are trying to load.
+ * Description: Force Transient Refresh is allows developers to easily force all of their transients to refresh through adding a query string to any URL.
  * Version: 0.1
- * Author: Zach Wills <@zachwills>
+ * Author: Zach Wills
  * Author URI: http://zachwills.net/
  * Text Domain: ftr
  * License: GPL2
