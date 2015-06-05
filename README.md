@@ -15,8 +15,6 @@ Clear all transients by adding a query string parameter (`?ftr`) to whatever URL
 
 Should be used when you are developing locally and don't want to load up your database to clear out transients.
 
-[Blog Post](http://github.com/zachwills/wp-force-transient-refresh)
-
 ## Installation
 
 1. Upload `force-transient-refresh` to the `/wp-content/plugins/` directory
