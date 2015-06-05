@@ -7,15 +7,17 @@ Stable tag: 0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Clear all transients by adding a query string parameter to whatever URL you are trying to load. Not for use in production.
+Clear all transients by adding a query string parameter (`?ftr`) to whatever URL you are trying to load. Not for use in production.
 
 == Description ==
 
-Clear all transients by adding a query string parameter to whatever URL you are trying to load. Not for use in production.
+Have you ever worked with transients and found yourself switching back and forth between your database and your code to make changes? Not anymore!
 
-Should be used when you are developing locally and don't want to load up your database to clear out transients.
+With Force Transient Refresh, you can clear all transients by adding a query string parameter to whatever URL you are trying to load.
 
-[GitHub Repo](https://github.com/zachwills/wp-force-transient-refresh)
+Not for use in production. Should be used when you are developing locally and don't want to load up your database to clear out transients.
+
+[GitHub Repo](https://github.com/zachwills/force-transient-refresh)
 
 == Installation ==
 
